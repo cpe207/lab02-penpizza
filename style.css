@@ -1,0 +1,18 @@
+h3 {
+  text-align: center;
+  color: #ff2171;
+  font-style: italic;
+}
+
+.skill-header {
+  text-align: left;
+}
+
+.skill-container {
+  border: solid #ff90bb;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px;
+  margin-bottom: 8px;
+}
