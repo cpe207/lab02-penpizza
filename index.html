@@ -5,43 +5,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   </head>
-  <body bgcolor="#FFE4A7">
-    
-    <h3 >My Portfolio</h3><br>
-    <center><a href="index.html"> Homepage |</a> 
-    <a href="contact.html"> Contact |</a>
-    <a href="experience.html"> Experience</a></center></br>
-    <center><img src="/image/photo.jpg" width="200" /></center>
-    <h3 >Penpicha Thongkham</h3>
-    <p style="text-align: center;">Hi!! My nickname is Film. I am study at Chiangmai University. Nice to meet you guys!</p></br>  
-    <h3 style="background-color:#FFFAD7;" >Skills</h3>
-    <div 
-    class="skill-container";
-    >
-      <h3 class="skill-header">Programming</h3>
-      <p>I can code c++.</p>
-      <p>My project in last semester => Ludo Game</p>
-      <p>I am an assistant programmer and a designer in this project.</p>
-      <center><img src="/image/home.png" width="200" /></center>
-      <center><img src="/image/background.png" width="200" /></center>
-      </div>
-    <div 
-      class="skill-container";
-      >
-        <h3 class="skill-header">Photographing</h3>
-        <p>I like to take a picture.</p>
-        <p>This is my favorite photo ever. </p>
-        <center><img src="/image/photo2.jpg" width="200" /></center>
-        <center><img src="/image/photo3.jpg" width="200" /></center>
-        <center><img src="/image/photo4.jpg" width="200" /></center>
-        </div>
-        <div 
-        class="skill-container";
-        >
-          <h3 class="skill-header">Cooking</h3>
-          <p>I can cook a fried rice and spaghetti with white sauce.</p>
+  <body class="bg">
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="index.html">Homepage</a>
+            <a class="nav-link" href="experience.html">Experience</a>
+            <a class="nav-link" href="gallery.html">Gallery</a>
+            <a class="nav-link " href="contact.html">Contact</a>
           </div>
+        </div>
+      </div>
+    </nav>
+    <div  class="d-flex gap-2 align-items-center mx-5 justify-content-center">
+      <img class= "circle" src="/image/photo.jpg" width="200" />
+    <div>
+      <h4 >Penpicha Thongkham</h4>
+      <p class="text-muted" >Hi!! My nickname is Film. I am study at Chiangmai University. Nice to meet you guys! </p>
+      <p class="text-muted">I'm 20 years old. My hometown is Chiang Rai. </p>
+
+    </div>
+    </div></br>  
+    <h3 style="background-color:#FFFAD7;" >Skills</h3>
+    <div style="max-width: 700px" class="mx-auto px-3">
+      <div class="d-flex border mb-3 shadow-sm my-rounded-all"  style="background-color: whitesmoke;">
+        <div class="my-rounded-left">
+          <img
+            src="/image/photo2.jpg"
+            width="150px"
+            height="150px"
+            style="object-fit: cover"
+            class="my-rounded-left d-none d-sm-block"
+          />
+        </div>
+        <div class="p-4">
+          <p class="fw-semibold fs-5">Photographing</p>
+          <span class="text-muted">
+            I like to take a picture. This is my favorite photo ever.
+          </span>
+        </div>
+      </div>
+
+      <div class="d-flex border mb-3 shadow-sm my-rounded-all"  style="background-color: whitesmoke;">
+        <div class="p-4">
+          <p class="fw-semibold fs-5">Programming</p>
+          <span class="text-muted">
+            I can code c++.  
+          </span></br>
+          <span class="text-muted">
+            My project in last semester is a Ludo Game
+          </span></br>
+          <span class="text-muted">
+            I am an assistant programmer and a designer in this project.
+          </span>
+          
+        </div>
+        <div class="my-rounded-right">
+          <img
+            src="/image/home.png"
+            height="220px"
+            style="object-fit: cover"
+            class="my-rounded-right d-none d-sm-block"
+          />
+        </div>
+      </div>
+
+      <div class="d-flex border mb-3 shadow-sm my-rounded-all"  style="background-color: whitesmoke;">
+        <div class="my-rounded-left">
+          <img
+            src="/image/fried-rice.jpg"
+            width="150px"
+            height="150px"
+            style="object-fit: cover"
+            class="my-rounded-left d-none d-sm-block"
+          />
+        </div>
+        <div class="p-4">
+          <p class="fw-semibold fs-5">Cooking</p>
+          <span class="text-muted">
+            I can cook a fried rice and spaghetti with white sauce.
+          </span>
+        </div>
+      </div>
+    </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   </body>
 </html>
 

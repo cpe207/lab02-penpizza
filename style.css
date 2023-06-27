@@ -8,6 +8,10 @@ h3 {
   text-align: left;
 }
 
+.circle {
+  border-radius: 50%;
+}
+
 .skill-container {
   border: solid #ff90bb;
   width: 400px;
@@ -15,4 +19,8 @@ h3 {
   margin-right: auto;
   padding: 16px;
   margin-bottom: 8px;
+}
+
+.bg{
+  background-color: #FFE4A7;
 }
